@@ -10,6 +10,7 @@ module.exports = {
       backgroundColor: {
         "primary-color": "#f2eeeb",
         "secondary-color": "#fe7962",
+        "primary-gray": "#f9f9f9",
       },
     },
   },

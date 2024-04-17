@@ -10,7 +10,7 @@ function DesktopHeader() {
         <Link href="#home" className="navigation-link">
           Home
         </Link>
-        <Link href="#freshfood" className="navigation-link">
+        <Link href="#products" className="navigation-link">
           Fresh Food
         </Link>
         <Link href="#shop" className="navigation-link">

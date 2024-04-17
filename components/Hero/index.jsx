@@ -4,8 +4,8 @@ function Hero() {
   return (
     <section className="min-h-screen bg-primary-color flex items-center justify-center">
       <div className="container flex items-center  ">
-        <div className="grow opacity-70 flex flex-col gap-16">
-          <div>
+        <div className="grow flex flex-col gap-16">
+          <div className="opacity-70">
             <h3 className="text-[1.9rem] tracking-wide ">
               Let's solve hunger together with monthly Offer
             </h3>
