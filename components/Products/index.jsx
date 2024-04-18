@@ -16,7 +16,7 @@ async function getData() {
 async function Products() {
   const data = await getData();
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <section id="products" className="min-h-screen">
@@ -36,11 +36,10 @@ async function Products() {
         <ItemCard item={data[1]} />
         <ItemCard item={data[2]} />
         <ItemCard item={data[3]} />
-        <ItemCard item={data[4]} />
+        <ItemCard item={data[8]} />
         <ItemCard item={data[5]} />
         <ItemCard item={data[6]} />
         <ItemCard item={data[7]} />
-        <ItemCard item={data[8]} />
       </div>
     </section>
   );

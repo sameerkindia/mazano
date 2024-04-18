@@ -7,10 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
+      colors: {
         "primary-color": "#f2eeeb",
         "secondary-color": "#fe7962",
         "primary-gray": "#f9f9f9",
+      },
+      backgroundImage: {
+        hotMenu: "url(/images/hot-menu.jpg)",
       },
     },
   },
