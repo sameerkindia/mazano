@@ -4,9 +4,9 @@ import { IoCartOutline } from "react-icons/io5";
 function DesktopHeader() {
   return (
     <div className="container flex items-center justify-between ">
-      <h1 className="text-[2.6rem] font-semibold">Mazano.</h1>
+      <h1 className="text-[2.3vw] font-semibold">Mazano.</h1>
 
-      <nav className="text-lg uppercase flex gap-2 basis-2/6 justify-between ">
+      <nav className="text-[1vw] uppercase flex gap-2 basis-2/6 justify-between ">
         <Link href="#home" className="navigation-link">
           Home
         </Link>
@@ -26,7 +26,7 @@ function DesktopHeader() {
 
       <div>
         <Link className="navigation-link" href="/">
-          <IoCartOutline className="h-10 w-10" />
+          <IoCartOutline className="h-[2.5vw] w-[2.5vw]" />
         </Link>
       </div>
     </div>

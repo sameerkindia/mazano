@@ -2,16 +2,16 @@ import Button from "../UI/Button";
 
 function Hero() {
   return (
-    <section className="min-h-screen bg-primary-color flex items-center justify-center">
+    <section className="min-h-[30vw] bg-primary-color flex items-center justify-center pt-[5vw]">
       <div className="container flex items-center  ">
-        <div className="grow flex flex-col gap-16">
+        <div className="grow flex flex-col gap-[3vw]">
           <div className="opacity-70">
-            <h3 className="text-[1.9rem] tracking-wide ">
+            <h3 className="text-[1.8vw] tracking-wide ">
               Let's solve hunger together with monthly Offer
             </h3>
-            <h2 className="flex flex-col text-[5.2rem] font-light uppercase">
+            <h2 className="flex flex-col text-[5.5vw] font-light uppercase  leading-tight">
               <span>Organic</span>
-              <span className="-my-[2rem]">pasta & sauce</span>
+              <span>pasta & sauce</span>
             </h2>
           </div>
           <div>

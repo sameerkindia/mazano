@@ -21,17 +21,17 @@ async function Products() {
   return (
     <section id="products" className="min-h-screen">
       <div className="bg-primary-gray">
-        <div className="container flex justify-between items-center py-16  uppercase">
+        <div className="container flex justify-between items-center py-[3vw]  uppercase">
           <div className="flex items-center gap-2">
-            <span className="block bg-secondary-color w-[4px] h-6 "></span>
-            <span className="text-[1.8rem] font-medium">Featured Products</span>
+            <span className="block bg-secondary-color w-[4px] min-h-[1.3vw] "></span>
+            <span className="text-[1.6vw] font-medium">Featured Products</span>
           </div>
           <div>
             <Button href="/">Show All Items</Button>
           </div>
         </div>
       </div>
-      <div className="container flex flex-wrap justify-between gap-y-12 py-12">
+      <div className="container flex flex-wrap justify-between gap-y-[2.6vw] py-[2.6vw]">
         <ItemCard item={data[0]} />
         <ItemCard item={data[1]} />
         <ItemCard item={data[2]} />

@@ -4,7 +4,7 @@ function Button({ children, href, className }) {
   return (
     <Link
       href={href}
-      className={`${className} bg-secondary-color inline-block text-white py-[1rem] px-[3rem] text-[1.3rem] `}
+      className={`${className} bg-secondary-color inline-block text-white py-[1vw] px-[3vw] text-[1.4vw] `}
     >
       {children}
     </Link>

@@ -2,13 +2,13 @@ function About() {
   return (
     <section
       id="about"
-      className="min-h-screen bg-primary-color flex items-center justify-center"
+      className="min-h-[40vw] bg-primary-color flex items-center justify-center"
     >
       <div className="container flex flex-col items-center justify-center gap-8">
-        <h3 className="uppercase border-b-4 border-secondary-color text-[2rem] font-semibold">
+        <h3 className="uppercase border-b-4 border-secondary-color text-[2vw] font-semibold">
           About us
         </h3>
-        <div className="w-4/5 text-[1.5rem] flex flex-col gap-4">
+        <div className="w-4/5 text-[1.2vw] flex flex-col gap-[0.8vw]">
           <p>
             Embark on a gastronomic adventure through the heart of Italy with
             our meticulously crafted Next.js website dedicated to the exquisite

@@ -3,7 +3,7 @@ function ItemCard({ item }) {
     return (Math.random() * 100).toFixed(2);
   }
   return (
-    <article className="w-[22rem]">
+    <article className="w-[20vw]">
       <div className="w-full ">
         <img
           src={`${item.image_url}`}
@@ -12,8 +12,8 @@ function ItemCard({ item }) {
         />
       </div>
       <div className="my-4">
-        <p className="text-[1.4rem] font-medium">{item.title}</p>
-        <p className="text-[1.2rem] font-medium text-secondary-color ">
+        <p className="text-[1.2vw] font-medium">{item.title}</p>
+        <p className="text-[1vw] font-medium text-secondary-color ">
           {" "}
           $ {randomPrice()}
         </p>
