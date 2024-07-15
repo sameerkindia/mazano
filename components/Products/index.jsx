@@ -19,19 +19,24 @@ async function Products() {
   // console.log(data);
 
   return (
-    <section id="products" className="min-h-screen">
+    <section id="products" className="">
       <div className="bg-primary-gray">
         <div className="container flex justify-between items-center py-[3vw]  uppercase">
-          <div className="flex items-center gap-2">
-            <span className="block bg-secondary-color w-[4px] min-h-[1.3vw] "></span>
-            <span className="text-[1.6vw] font-medium">Featured Products</span>
+          <div className="flex items-center gap-[.4vw] text-[2.6vw] md:text-[1.6vw]">
+            <span className="block bg-secondary-color text-secondary-color w-[.35vw] md:w-[0.2vw] my-0 overflow-hidden ">
+              l
+            </span>
+            <span className="font-medium">Featured Products</span>
           </div>
           <div>
-            <Button href="/">Show All Items</Button>
+            <Button href="/">
+              {" "}
+              <span className="hidden md:inline-block">Show</span> All Items
+            </Button>
           </div>
         </div>
       </div>
-      <div className="container flex flex-wrap justify-between gap-y-[2.6vw] py-[2.6vw]">
+      <div className="container flex flex-wrap justify-center gap-[4vw] sm:justify-between  gap-y-[2.6vw] py-[5vw] md:py-[2.6vw]">
         <ItemCard item={data[0]} />
         <ItemCard item={data[1]} />
         <ItemCard item={data[2]} />
@@ -40,6 +45,7 @@ async function Products() {
         <ItemCard item={data[5]} />
         <ItemCard item={data[6]} />
         <ItemCard item={data[7]} />
+        <article className="hidden sm:inline-block md:hidden w-[25vw]"></article>
       </div>
     </section>
   );
