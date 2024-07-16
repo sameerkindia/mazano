@@ -36,13 +36,13 @@ async function Products() {
           </div>
         </div>
       </div>
-      <div className="container flex flex-wrap justify-center gap-[4vw] sm:justify-between  gap-y-[2.6vw] py-[5vw] md:py-[2.6vw]">
+      <div className="container flex flex-wrap justify-center gap-[4vw] md:gap-0 sm:justify-between  gap-y-[2.6vw] py-[5vw]">
         <ItemCard item={data[0]} />
         <ItemCard item={data[1]} />
         <ItemCard item={data[2]} />
         <ItemCard item={data[3]} />
         <ItemCard item={data[8]} />
-        <ItemCard item={data[5]} />
+        <ItemCard item={data[11]} />
         <ItemCard item={data[6]} />
         <ItemCard item={data[7]} />
         <article className="hidden sm:inline-block md:hidden w-[25vw]"></article>
